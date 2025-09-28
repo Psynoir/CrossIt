@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crosshair Configurator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Panel - Controls -->
+      <div class="controls-panel">
+        <div class="header">
+          <h1>Crosshair Settings</h1>
+        </div>
+        
+        <div class="settings-content">
+          <!-- Basic Settings -->
+          <div class="section">
+            <h3>Basic Settings</h3>
+            <div class="control-row">
+              <label>Style</label>
+              <select id="crosshairStyle">
+                <option value="cross">Cross</option>
+                <option value="dot">Dot</option>
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+              </select>
+            </div>
+            
+            <div class="control-row">
+              <label>Size</label>
+              <input type="range" id="crosshairSize" min="2" max="40" value="20">
+              <span class="value" id="sizeValue">20</span>
+            </div>
+            
+            <div class="control-row">
+              <label>Thickness</label>
+              <input type="range" id="crosshairThickness" min="1" max="6" value="2">
+              <span class="value" id="thicknessValue">2</span>
+            </div>
+            
+            <div class="control-row">
+              <label>Gap</label>
+              <input type="range" id="crosshairGap" min="0" max="15" value="3">
+              <span class="value" id="gapValue">3</span>
+            </div>
+          </div>
+
+          <!-- Position Settings -->
+          <div class="section">
+            <h3>Position</h3>
+            <div class="control-row">
+              <label>Offset X</label>
+              <input type="range" id="offsetX" min="-30" max="30" value="0">
+              <span class="value" id="offsetXValue">0</span>
+            </div>
+            
+            <div class="control-row">
+              <label>Offset Y</label>
+              <input type="range" id="offsetY" min="-30" max="30" value="0">
+              <span class="value" id="offsetYValue">0</span>
+            </div>
+          </div>
+
+          <!-- Modules -->
+          <div class="section">
+            <h3>Modules</h3>
+            <div class="module-row">
+              <label>Dynamic Color</label>
+              <div class="toggle" id="dynamicColorToggle">
+                <div class="toggle-slider"></div>
+              </div>
+            </div>
+            
+            <div class="module-row">
+              <label>Outline</label>
+              <div class="toggle" id="outlineToggle">
+                <div class="toggle-slider"></div>
+              </div>
+            </div>
+            
+            <div class="module-row">
+              <label>Center Dot</label>
+              <div class="toggle active" id="centerDotToggle">
+                <div class="toggle-slider"></div>
+              </div>
+            </div>
+            
+            <div class="module-row">
+              <label>Pulsing Effect</label>
+              <div class="toggle" id="pulsingToggle">
+                <div class="toggle-slider"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Color & Opacity -->
+          <div class="section">
+            <h3>Appearance</h3>
+            <div class="control-row">
+              <label>Color</label>
+              <input type="color" id="crosshairColor" value="#00ff41">
+            </div>
+            
+            <div class="control-row">
+              <label>Opacity</label>
+              <input type="range" id="crosshairOpacity" min="20" max="100" value="100">
+              <span class="value" id="opacityValue">100%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Panel - Preview -->
+      <div class="preview-panel">
+        <div class="preview-header">
+          <h3>Preview</h3>
+          <div class="coords">
+            <span>X: <span id="coordX">0</span></span>
+            <span>Y: <span id="coordY">0</span></span>
+          </div>
+        </div>
+        
+        <div class="preview-area" id="previewArea">
+          <div class="crosshair" id="crosshair">
+            <div class="crosshair-line horizontal"></div>
+            <div class="crosshair-line vertical"></div>
+            <div class="crosshair-dot"></div>
+            <div class="crosshair-outline"></div>
+          </div>
+        </div>
+        
+        <div class="preview-footer">
+          <button class="btn primary" id="applyBtn">Force save cfg</button>
+          <button class="btn secondary" id="resetBtn">Reset</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
