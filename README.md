@@ -1,4 +1,4 @@
-# Crosshair Configurator 🖤
+# CrosshairIT 🖤
 
 **Crosshair Configurator** is a lightweight and fully customizable tool to adjust your crosshair in real time. Built with **PySide6** and **PyWebView**, it’s fast, cross-platform, and perfect for fine-tuning your aiming style.
 
