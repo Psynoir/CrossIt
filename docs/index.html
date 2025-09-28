@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crosshair Configurator Wiki</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="crosshair-icon">⊹</div>
+                    <h1>Crosshair Configurator</h1>
+                    <span class="version">Wiki Documentation</span>
+                </div>
+                <nav class="main-nav">
+                    <a href="#overview" class="nav-link active">Overview</a>
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#installation" class="nav-link">Installation</a>
+                    <a href="#usage" class="nav-link">Usage</a>
+                    <a href="#technical" class="nav-link">Technical</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <aside class="sidebar">
+                <nav class="sidebar-nav">
+                    <div class="nav-section">
+                        <h3>Getting Started</h3>
+                        <ul>
+                            <li><a href="#overview" class="sidebar-link">Overview</a></li>
+                            <li><a href="#quick-start" class="sidebar-link">Quick Start</a></li>
+                            <li><a href="#installation" class="sidebar-link">Installation</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-section">
+                        <h3>Features</h3>
+                        <ul>
+                            <li><a href="#crosshair-styles" class="sidebar-link">Crosshair Styles</a></li>
+                            <li><a href="#customization" class="sidebar-link">Customization</a></li>
+                            <li><a href="#modules" class="sidebar-link">Modules</a></li>
+                            <li><a href="#ui-overview" class="sidebar-link">UI Overview</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-section">
+                        <h3>Technical</h3>
+                        <ul>
+                            <li><a href="#technology-stack" class="sidebar-link">Technology Stack</a></li>
+                            <li><a href="#requirements" class="sidebar-link">Requirements</a></li>
+                            <li><a href="#architecture" class="sidebar-link">Architecture</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-section">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#faq" class="sidebar-link">FAQ</a></li>
+                            <li><a href="#troubleshooting" class="sidebar-link">Troubleshooting</a></li>
+                            <li><a href="#notes" class="sidebar-link">Important Notes</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </aside>
+
+            <div class="content">
+                <div class="breadcrumb">
+                    <span>Documentation</span> / <span class="current">Overview</span>
+                </div>
+
+                <section id="overview" class="section">
+                    <header class="section-header">
+                        <h1>Crosshair Configurator</h1>
+                        <p class="section-subtitle">Professional crosshair customization tool for precision gaming</p>
+                    </header>
+                    
+                    <div class="intro-card">
+                        <p><strong>Crosshair Configurator</strong> is a lightweight, fully customizable tool designed for real-time crosshair adjustment. Built with modern technologies including <strong>PySide6</strong> and <strong>PyWebView</strong>, it delivers fast, cross-platform performance perfect for fine-tuning your aiming precision.</p>
+                    </div>
+
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">⊹</div>
+                            <h3>Multiple Styles</h3>
+                            <p>Cross, Dot, Circle, and Square crosshair configurations</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">⚙️</div>
+                            <h3>Real-time Preview</h3>
+                            <p>Instant visual feedback with live coordinate display</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🎨</div>
+                            <h3>Advanced Modules</h3>
+                            <p>Dynamic colors, outlines, center dots, and pulsing effects</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">💾</div>
+                            <h3>Configuration Save</h3>
+                            <p>Persistent settings with manual save functionality</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="quick-start" class="section">
+                    <header class="section-header">
+                        <h2>Quick Start Guide</h2>
+                        <p class="section-subtitle">Get up and running in minutes</p>
+                    </header>
+
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>Clone Repository</h3>
+                                <pre><code>git clone &lt;repo-url&gt;
+cd crosshair-configurator</code></pre>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>Run Application</h3>
+                                <pre><code>python main.py</code></pre>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>Configure & Preview</h3>
+                                <p>Open the application, adjust crosshair settings in the left panel, and view real-time preview on the right.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="features" class="section">
+                    <header class="section-header">
+                        <h2>Features Overview</h2>
+                        <p class="section-subtitle">Comprehensive customization capabilities</p>
+                    </header>
+
+                    <div id="crosshair-styles" class="subsection">
+                        <h3>Crosshair Styles</h3>
+                        <div class="style-grid">
+                            <div class="style-item">
+                                <div class="style-preview cross">⊹</div>
+                                <h4>Cross</h4>
+                                <p>Traditional crosshair design</p>
+                            </div>
+                            <div class="style-item">
+                                <div class="style-preview dot">•</div>
+                                <h4>Dot</h4>
+                                <p>Minimal dot reticle</p>
+                            </div>
+                            <div class="style-item">
+                                <div class="style-preview circle">○</div>
+                                <h4>Circle</h4>
+                                <p>Circular targeting aid</p>
+                            </div>
+                            <div class="style-item">
+                                <div class="style-preview square">⬜</div>
+                                <h4>Square</h4>
+                                <p>Square frame design</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="customization" class="subsection">
+                        <h3>Customization Options</h3>
+                        <div class="options-list">
+                            <div class="option">
+                                <h4>Size Control</h4>
+                                <p>Adjustable crosshair dimensions for optimal visibility</p>
+                            </div>
+                            <div class="option">
+                                <h4>Thickness Settings</h4>
+                                <p>Fine-tune line thickness for personal preference</p>
+                            </div>
+                            <div class="option">
+                                <h4>Gap Adjustment</h4>
+                                <p>Modify center gap spacing for better target acquisition</p>
+                            </div>
+                            <div class="option">
+                                <h4>Position Offset</h4>
+                                <p>X and Y coordinate positioning for screen alignment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="modules" class="subsection">
+                        <h3>Advanced Modules</h3>
+                        <div class="modules-grid">
+                            <div class="module-card">
+                                <h4>Dynamic Color</h4>
+                                <p>Color changing based on game events or conditions</p>
+                            </div>
+                            <div class="module-card">
+                                <h4>Outline System</h4>
+                                <p>Border highlighting for improved contrast</p>
+                            </div>
+                            <div class="module-card">
+                                <h4>Center Dot</h4>
+                                <p>Additional center point for precision aiming</p>
+                            </div>
+                            <div class="module-card">
+                                <h4>Pulsing Effect</h4>
+                                <p>Animated crosshair for enhanced visibility</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="ui-overview" class="section">
+                    <header class="section-header">
+                        <h2>User Interface</h2>
+                        <p class="section-subtitle">Layout and control explanation</p>
+                    </header>
+
+                    <div class="ui-layout">
+                        <div class="ui-panel">
+                            <h3>Left Panel</h3>
+                            <p>Complete crosshair configuration controls including style selection, size adjustments, color settings, and module toggles.</p>
+                            <ul>
+                                <li>Crosshair style selector</li>
+                                <li>Size and thickness sliders</li>
+                                <li>Color picker and opacity</li>
+                                <li>Module activation switches</li>
+                            </ul>
+                        </div>
+                        <div class="ui-panel">
+                            <h3>Right Panel</h3>
+                            <p>Live crosshair preview with real-time coordinate display and positioning feedback.</p>
+                            <ul>
+                                <li>Real-time crosshair preview</li>
+                                <li>Coordinate display</li>
+                                <li>Position indicators</li>
+                                <li>Visual feedback</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="control-buttons">
+                        <div class="button-info">
+                            <h4>Force Save CFG</h4>
+                            <p>Manually save current crosshair configuration to persistent storage</p>
+                        </div>
+                        <div class="button-info">
+                            <h4>Reset</h4>
+                            <p>Revert all settings to default configuration values</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="technical" class="section">
+                    <header class="section-header">
+                        <h2>Technical Documentation</h2>
+                        <p class="section-subtitle">Architecture and implementation details</p>
+                    </header>
+
+                    <div id="technology-stack" class="subsection">
+                        <h3>Technology Stack</h3>
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <h4>Python 3.10+</h4>
+                                <p>Core application runtime and logic</p>
+                            </div>
+                            <div class="tech-item">
+                                <h4>PySide6</h4>
+                                <p>Qt-based GUI framework for native interface</p>
+                            </div>
+                            <div class="tech-item">
+                                <h4>PyWebView</h4>
+                                <p>Web-based UI rendering engine</p>
+                            </div>
+                            <div class="tech-item">
+                                <h4>HTML/CSS/JS</h4>
+                                <p>Frontend interface and user interactions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="requirements" class="subsection">
+                        <h3>System Requirements</h3>
+                        <div class="requirements-list">
+                            <div class="req-category">
+                                <h4>Minimum Requirements</h4>
+                                <ul>
+                                    <li>Python 3.10 or higher</li>
+                                    <li>50MB available disk space</li>
+                                    <li>256MB RAM</li>
+                                    <li>OpenGL 2.0 support</li>
+                                </ul>
+                            </div>
+                            <div class="req-category">
+                                <h4>Supported Platforms</h4>
+                                <ul>
+                                    <li>Windows 10/11</li>
+                                    <li>macOS 10.14+</li>
+                                    <li>Linux (Ubuntu 18.04+)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="architecture" class="subsection">
+                        <h3>Architecture Overview</h3>
+                        <p>The application uses a hybrid architecture combining native Python backend with web-based frontend rendering:</p>
+                        <div class="architecture-flow">
+                            <div class="arch-component">Python Core</div>
+                            <div class="arch-arrow">→</div>
+                            <div class="arch-component">PySide6 Window</div>
+                            <div class="arch-arrow">→</div>
+                            <div class="arch-component">PyWebView Renderer</div>
+                            <div class="arch-arrow">→</div>
+                            <div class="arch-component">HTML/CSS UI</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="installation" class="section">
+                    <header class="section-header">
+                        <h2>Installation Guide</h2>
+                        <p class="section-subtitle">Detailed setup instructions</p>
+                    </header>
+
+                    <div class="install-methods">
+                        <div class="install-method">
+                            <h3>From Source</h3>
+                            <pre><code># Clone the repository
+git clone &lt;repository-url&gt;
+cd crosshair-configurator
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python main.py</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="dependencies">
+                        <h3>Dependencies</h3>
+                        <p>The application has minimal dependencies designed for lightweight operation:</p>
+                        <ul>
+                            <li><strong>PySide6:</strong> Qt6-based GUI framework</li>
+                            <li><strong>PyWebView:</strong> Web-based UI rendering</li>
+                            <li><strong>Standard Library:</strong> No additional third-party requirements</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="faq" class="section">
+                    <header class="section-header">
+                        <h2>Frequently Asked Questions</h2>
+                        <p class="section-subtitle">Common questions and solutions</p>
+                    </header>
+
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <h3>Does this modify game files?</h3>
+                            <p>No, Crosshair Configurator is purely a visual configuration tool. It does not modify any game files or inject code into running games.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>How do I save my settings?</h3>
+                            <p>Settings are saved manually using the "Force save cfg" button. This ensures intentional configuration persistence.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>Is it compatible with all games?</h3>
+                            <p>The configurator is a standalone tool for crosshair design. Game compatibility depends on how you implement the generated configuration.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>Can I use custom colors?</h3>
+                            <p>Yes, the application includes a full color picker with opacity controls for complete customization.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="notes" class="section">
+                    <header class="section-header">
+                        <h2>Important Notes</h2>
+                        <p class="section-subtitle">Critical information for users</p>
+                    </header>
+
+                    <div class="notes-grid">
+                        <div class="note-card warning">
+                            <h3>Configuration Only</h3>
+                            <p>This tool is designed solely for visual crosshair configuration and does not modify game files or provide in-game overlays.</p>
+                        </div>
+                        <div class="note-card info">
+                            <h3>Manual Saving</h3>
+                            <p>Settings must be saved manually using the "Force save cfg" button to ensure configuration persistence.</p>
+                        </div>
+                        <div class="note-card success">
+                            <h3>Cross-Platform</h3>
+                            <p>Works seamlessly on Windows, Linux, and macOS thanks to PyWebView's cross-platform compatibility.</p>
+                        </div>
+                    </div>
+
+                    <div class="pro-tip">
+                        <h3>💡 Pro Tip</h3>
+                        <p>Customize your crosshair configuration so precisely that your opponents won't realize they're already in your sights.</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 Crosshair Configurator Wiki. Built for precision gaming.</p>
+                <div class="footer-links">
+                    <a href="#overview">Documentation</a>
+                    <a href="#technical">Technical</a>
+                    <a href="#faq">Support</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
