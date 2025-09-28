@@ -4,7 +4,7 @@
 
 ---
 
-## 🔹 Features
+## Features
 
 * **Crosshair Styles:** Cross, Dot, Circle, Square
 * **Adjustable Size, Thickness, and Gap**
@@ -19,7 +19,7 @@
 
 ---
 
-## 🎛 UI Overview
+## UI Overview
 
 * **Left Panel:** Full crosshair settings
 * **Right Panel:** Live preview with coordinates
@@ -27,7 +27,7 @@
 
 ---
 
-## ⚡ Technology Stack
+## Technology Stack
 
 * **Python 3.10+**
 * **PySide6 / PyWebView**
@@ -36,19 +36,19 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 git clone <repo-url>
 cd crosshair-configurator
-python main.py
+python main.pyw
 ```
 
 Open the app, tweak your crosshair settings, and instantly see the preview.
 
 ---
 
-## 💡 Notes
+## Notes
 
 * This script is only for visual configuration — it does **not** modify game files.
 * Settings are saved manually via `Force save cfg`.
@@ -56,6 +56,6 @@ Open the app, tweak your crosshair settings, and instantly see the preview.
 
 ---
 
-## 😎 Tip
+## Tip
 
 Customize your crosshair so your enemies won’t even realize they’re in the sights.
